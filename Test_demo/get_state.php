@@ -5,7 +5,7 @@ $result = $conn->query("SELECT Button_state, click_pilot, click_tour FROM Button
 
 if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
-    $row['Button_state'] = strtolower($row['Button_state']); // Forcer en minuscule
+    $row['Button_state'] = strtolower($row['Button_state']);
     echo json_encode($row);
 } else {
     echo json_encode([
