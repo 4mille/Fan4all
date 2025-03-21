@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.rouge { background-color: red; }
+.orange { background-color: orange; }
+.vert { background-color: green; }
+
+#reset {
+    background-color: red;
+}
+
+#reset:hover {
+    background-color: darkred;
+}
